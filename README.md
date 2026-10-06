@@ -2,7 +2,7 @@
 
 ## Descripción del sistema
 
-El sistema tiene como objetivo gestionar las operaciones principales de una tienda de ropa. Permitirá administrar los productos disponibles, sus categorías y los clientes, además de registrar las ventas realizadas.
+El sistema tiene como objetivo gestionar las operaciones principales de una tienda de ropa. Permitirá administrar los productos disponibles, sus categorías, los clientes y los vendedores, además de registrar las ventas realizadas.
 
 La aplicación será desarrollada como una aplicación de escritorio utilizando Windows Forms y estará conectada a una base de datos mediante Entity Framework Core. El proyecto estará organizado en capas para separar la interfaz, la lógica de acceso a datos y las entidades del sistema.
 
@@ -11,7 +11,8 @@ Las principales entidades del sistema serán:
 * **Producto:** representa las prendas disponibles para la venta, incluyendo información como nombre, precio, stock y categoría.
 * **Categoría:** permite clasificar los productos según su tipo, por ejemplo remeras, pantalones, camperas, accesorios, etc.
 * **Cliente:** almacena los datos básicos de las personas que realizan compras.
-* **Venta:** representa una operación de compra realizada por un cliente.
+* **Vendedor:** representa a los empleados encargados de registrar las ventas.
+* **Venta:** representa una operación de compra realizada por un cliente y registrada por un vendedor.
 * **DetalleVenta:** registra los productos incluidos en cada venta, junto con su cantidad y precio.
 
 ## Objetivos
@@ -21,14 +22,13 @@ Los objetivos principales del sistema son:
 * Gestionar de manera sencilla los productos disponibles en la tienda.
 * Organizar los productos mediante categorías.
 * Registrar y administrar los clientes.
+* Registrar y administrar los vendedores.
 * Registrar las ventas realizadas y los productos incluidos en cada una.
 * Mantener actualizado el stock de los productos.
+* Asociar cada venta con el cliente correspondiente y el vendedor que la registró.
 * Facilitar la consulta de información mediante reportes.
-* Aplicar el uso de Windows Forms, Entity Framework Core y una arquitectura organizada en capas.
-
+  
 ## Funcionalidades previstas
-
-El sistema contará con las siguientes funcionalidades principales:
 
 ### Gestión de productos
 
@@ -52,10 +52,18 @@ El sistema contará con las siguientes funcionalidades principales:
 * Dar de baja un cliente.
 * Consultar los clientes registrados.
 
+### Gestión de vendedores
+
+* Dar de alta un vendedor.
+* Modificar los datos de un vendedor.
+* Dar de baja un vendedor.
+* Consultar los vendedores registrados.
+
 ### Gestión de ventas
 
 * Registrar una nueva venta.
 * Seleccionar un cliente para la venta.
+* Seleccionar el vendedor que registra la venta.
 * Agregar uno o más productos a la venta.
 * Registrar la cantidad de cada producto.
 * Calcular el total de la venta.
@@ -64,20 +72,15 @@ El sistema contará con las siguientes funcionalidades principales:
 
 ## Reportes
 
-El sistema permitirá generar al menos los siguientes reportes:
+El sistema permitirá generar los siguientes reportes:
 
 1. **Productos con stock disponible:** mostrará los productos registrados junto con su stock actual.
-2. **Productos con stock bajo:** permitirá identificar aquellos productos cuyo stock se encuentre por debajo de una cantidad determinada.
-3. **Productos más vendidos:** mostrará los productos que hayan sido vendidos con mayor frecuencia.
-4. **Ventas realizadas por período:** permitirá consultar las ventas realizadas entre determinadas fechas.
-5. **Ventas por cliente:** mostrará las compras realizadas por cada cliente.
-6. **Productos por categoría:** permitirá consultar los productos agrupados según su categoría.
 
-## Tecnologías previstas
+2. **Ventas por cliente:** permitirá consultar las ventas realizadas por cada cliente y el total de compras realizadas.
 
-* C#
-* .NET
-* Windows Forms
-* Entity Framework Core
-* Base de datos SQLite
-* Arquitectura en capas mediante proyectos de biblioteca de clases.
+3. **Ventas por vendedor:** permitirá consultar las ventas registradas por cada vendedor.
+
+4. **Vendedor con mayor cantidad de ventas:** permitirá identificar al vendedor que haya registrado la mayor cantidad de ventas.
+
+5. **Productos por categoría:** permitirá consultar los productos agrupados según su categoría.
+
