@@ -84,3 +84,25 @@ El sistema permitirá generar los siguientes reportes:
 
 5. **Productos por categoría:** permitirá consultar los productos agrupados según su categoría.
 
+## Integración de las capas
+
+El sistema estará organizado en diferentes capas donde cada una tendrá una responsabilidad específica. La idea es que los datos vayan pasando de una capa a otra hasta llegar a la base de datos, evitando que todas las partes del sistema estén mezcladas.
+
+Por ejemplo, para registrar un nuevo producto, el recorrido sería el siguiente:
+
+1. **Capa de presentación:** el usuario completa los datos del producto desde un formulario de Windows Forms. Al presionar el botón para guardar, la información ingresada se envía a la siguiente capa.
+
+2. **Capa de lógica o servicios:** recibe los datos provenientes del formulario y se encarga de realizar las validaciones necesarias antes de guardarlos.
+
+3. **Capa de acceso a datos:** una vez que los datos fueron validados, esta capa se encarga de comunicarse con la base de datos utilizando Entity Framework Core. Se crea el objeto `Producto` con los datos recibidos y se agrega al contexto de Entity Framework.
+
+4. **Entity Framework Core y base de datos:** Entity Framework Core transforma la operación realizada sobre el objeto en la consulta correspondiente y la ejecuta sobre la base de datos. De esta manera, el nuevo producto queda almacenado en la tabla correspondiente.
+
+5. **Respuesta al usuario:** una vez que la operación se completa correctamente, el resultado vuelve hacia la capa de presentación y el sistema informa al usuario que el producto fue registrado correctamente. Si ocurre algún error, se informa para que pueda corregirse.
+
+## Diagrama de clases
+
+El diagrama de clases inicial del sistema se encuentra en:
+
+[Diagrama/diagrama-clases.png](https://github.com/laraglaria/TP_Gestion_Tienda_Ropa_Grupo_9/blob/main/Diagrama%20de%20clases.png)
+
