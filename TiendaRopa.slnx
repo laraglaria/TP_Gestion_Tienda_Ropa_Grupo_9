@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../TiendaRopa.WinForms/TiendaRopa.WinForms.csproj" />
+  <Project Path="TiendaRopa.csproj" />
+</Solution>
