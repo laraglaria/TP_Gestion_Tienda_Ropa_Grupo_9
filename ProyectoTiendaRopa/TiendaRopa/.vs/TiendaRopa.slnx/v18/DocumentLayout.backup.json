@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{242E8147-5B31-4DE8-9E88-B1F5B62C4B4D}|TiendaRopaApp\\TiendaRopaApp.csproj|C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\tiendaropaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{242E8147-5B31-4DE8-9E88-B1F5B62C4B4D}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\accesodatos\\data\\tiendaropadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\tiendaropadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\accesodatos\\migrations\\20261014204052_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\migrations\\20261014204052_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\proyectotiendaropa\\tiendaropa\\accesodatos\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Form1.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "TiendaRopaApp\\Form1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:38:29.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Form1.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Form1.cs",
+              "RelativeToolTip": "TiendaRopaApp\\Form1.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAvwLAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T22:54:00.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Form1.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaRopaApp\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T23:42:35.516Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TiendaRopaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "RelativeToolTip": "AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:24:40.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20261014204052_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Migrations\\20261014204052_Inicial.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20261014204052_Inicial.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Migrations\\20261014204052_Inicial.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20261014204052_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:40:53.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:27:39.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:27:05.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Models\\Producto.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T20:23:51.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
