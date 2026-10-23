@@ -16,5 +16,12 @@ namespace AccesoDatos.Models
         public decimal Precio { get; set; }
 
         public int Stock { get; set; }
+
+        public int? CategoriaId { get; set; }
+
+        public bool Estado { get; set; }
+
+        public Categoria? Categoria { get; set; }
     }
 }
+

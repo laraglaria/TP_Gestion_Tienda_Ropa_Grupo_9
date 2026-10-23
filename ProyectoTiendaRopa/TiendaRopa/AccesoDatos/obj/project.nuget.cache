@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z70Bj3sdem0=",
+  "dgSpecHash": "qvYLBqrECvc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj",
+  "projectFilePath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\larag\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

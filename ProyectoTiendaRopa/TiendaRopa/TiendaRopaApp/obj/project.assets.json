@@ -2887,11 +2887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
+      "projectUniqueName": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
       "projectName": "TiendaRopaApp",
-      "projectPath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
+      "projectPath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
       "packagesPath": "C:\\Users\\larag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\obj\\",
+      "outputPath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\larag\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2909,8 +2909,8 @@
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj": {
-              "projectPath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj"
+            "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj": {
+              "projectPath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj"
             }
           }
         }

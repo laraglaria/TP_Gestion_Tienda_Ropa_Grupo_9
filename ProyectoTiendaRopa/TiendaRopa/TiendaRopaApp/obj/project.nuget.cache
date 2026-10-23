@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NFAERrGwhcE=",
+  "dgSpecHash": "ryBAIjG/kDk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
+  "projectFilePath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\larag\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

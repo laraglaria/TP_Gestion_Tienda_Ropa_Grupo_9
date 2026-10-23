@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj": {}
+    "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj",
+        "projectPath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\larag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\larag\\Desktop\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\larag\\AppData\\Roaming\\NuGet\\NuGet.Config",
