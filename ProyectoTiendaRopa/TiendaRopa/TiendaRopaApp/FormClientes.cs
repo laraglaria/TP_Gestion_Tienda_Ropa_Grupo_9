@@ -3,19 +3,26 @@ using AccesoDatos.Models;
 using AccesoDatos.Repositories;
 using System;
 using System.Net.Mail;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace TiendaRopaApp
 {
     public partial class FormClientes : Form
     {
-        private GenericRepository<Cliente> repositorio =
-            new GenericRepository<Cliente>();
+        private readonly IGenericRepository<Cliente> repositorio;
 
         private int idClienteSeleccionado = 0;
 
-        public FormClientes()
+        public FormClientes(IGenericRepository<Cliente> repositorio)
         {
             InitializeComponent();
+
+            this.repositorio = repositorio;
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+
             CargarClientes();
         }
 
@@ -44,6 +51,13 @@ namespace TiendaRopaApp
             catch (FormatException)
             {
                 MessageBox.Show("Ingresá un correo electrónico válido.");
+                return;
+            }
+
+            if (!ValidarTelefono(txtTelefono.Text.Trim()))
+            {
+                MessageBox.Show(
+                    "Ingresá un teléfono válido. Debe contener entre 8 y 15 números.");
                 return;
             }
 
@@ -86,7 +100,31 @@ namespace TiendaRopaApp
 
                 txtDireccion.Text = dgvClientes.Rows[e.RowIndex]
                     .Cells["Direccion"].Value?.ToString() ?? "";
+
+                btnModificar.Enabled = true;
+                btnEliminar.Enabled = true;
             }
+        }
+
+        private bool ValidarTelefono(string telefono)
+        {
+            // Solo permite números, espacios, +, - y paréntesis.
+            if (!Regex.IsMatch(telefono, @"^\+?[0-9][0-9\s()-]*[0-9]$"))
+            {
+                return false;
+            }
+
+            // Contamos solamente los dígitos.
+            string numeros = new string(
+                telefono.Where(char.IsDigit).ToArray());
+
+            // El teléfono debe tener entre 8 y 15 dígitos.
+            if (numeros.Length < 8 || numeros.Length > 15)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -186,6 +224,9 @@ namespace TiendaRopaApp
             txtDireccion.Clear();
 
             dgvClientes.ClearSelection();
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
         }
     }
 }

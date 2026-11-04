@@ -2,19 +2,26 @@
 using AccesoDatos.Models;
 using AccesoDatos.Repositories;
 using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace TiendaRopaApp
 {
     public partial class FormVendedores : Form
     {
-        private GenericRepository<Vendedor> repositorio =
-            new GenericRepository<Vendedor>();
+        private readonly IGenericRepository<Vendedor> repositorio;
 
         private int idVendedorSeleccionado = 0;
 
-        public FormVendedores()
+        public FormVendedores(IGenericRepository<Vendedor> repositorio)
         {
             InitializeComponent();
+
+            this.repositorio = repositorio;
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+
             CargarVendedores();
         }
 
@@ -31,6 +38,13 @@ namespace TiendaRopaApp
                 txtTelefono.Text.Trim() == "")
             {
                 MessageBox.Show("Completá todos los campos.");
+                return;
+            }
+
+            if (!ValidarTelefono(txtTelefono.Text.Trim()))
+            {
+                MessageBox.Show(
+                    "Ingresá un teléfono válido. Debe contener entre 8 y 15 números.");
                 return;
             }
 
@@ -63,7 +77,28 @@ namespace TiendaRopaApp
 
                 txtTelefono.Text = dgvVendedores.Rows[e.RowIndex]
                     .Cells["Telefono"].Value?.ToString() ?? "";
+
+                btnModificar.Enabled = true;
+                btnEliminar.Enabled = true;
             }
+        }
+
+        private bool ValidarTelefono(string telefono)
+        {
+            if (!Regex.IsMatch(telefono, @"^\+?[0-9][0-9\s()-]*[0-9]$"))
+            {
+                return false;
+            }
+
+            string numeros = new string(
+                telefono.Where(char.IsDigit).ToArray());
+
+            if (numeros.Length < 8 || numeros.Length > 15)
+            {
+                return false;
+            }
+
+            return true;
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -79,6 +114,13 @@ namespace TiendaRopaApp
                 txtTelefono.Text.Trim() == "")
             {
                 MessageBox.Show("Completá todos los campos.");
+                return;
+            }
+
+            if (!ValidarTelefono(txtTelefono.Text.Trim()))
+            {
+                MessageBox.Show(
+                    "Ingresá un teléfono válido. Debe contener entre 8 y 15 números.");
                 return;
             }
 
@@ -140,6 +182,8 @@ namespace TiendaRopaApp
             txtApellido.Clear();
             txtTelefono.Clear();
             dgvVendedores.ClearSelection();
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
         }
     }
 }

@@ -15,9 +15,12 @@ namespace TiendaRopaApp
 {
     public partial class FormReportes : Form
     {
-        public FormReportes()
+        private readonly TiendaRopaDbContext context;
+        public FormReportes(TiendaRopaDbContext context)
         {
             InitializeComponent();
+
+            this.context = context;
 
             cmbTipoReporte.Items.Add("Productos con stock disponible");
             cmbTipoReporte.Items.Add("Ventas por cliente");
@@ -38,7 +41,6 @@ namespace TiendaRopaApp
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            using var context = new TiendaRopaDbContext();
 
             switch (cmbTipoReporte.SelectedIndex)
             {

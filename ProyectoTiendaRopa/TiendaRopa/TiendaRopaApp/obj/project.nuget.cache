@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ryBAIjG/kDk=",
+  "dgSpecHash": "zI+IEcgM3AU=",
   "success": true,
   "projectFilePath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\TiendaRopaApp.csproj",
   "expectedPackageFiles": [
@@ -23,8 +23,8 @@
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.13\\microsoft.extensions.caching.abstractions.10.0.13.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.13\\microsoft.extensions.caching.memory.10.0.13.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.13\\microsoft.extensions.configuration.abstractions.10.0.13.nupkg.sha512",
-    "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.13\\microsoft.extensions.dependencyinjection.10.0.13.nupkg.sha512",
-    "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.13\\microsoft.extensions.dependencyinjection.abstractions.10.0.13.nupkg.sha512",
+    "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.14\\microsoft.extensions.dependencyinjection.10.0.14.nupkg.sha512",
+    "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.14\\microsoft.extensions.dependencyinjection.abstractions.10.0.14.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.13\\microsoft.extensions.dependencymodel.10.0.13.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.logging\\10.0.13\\microsoft.extensions.logging.10.0.13.nupkg.sha512",
     "C:\\Users\\larag\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.13\\microsoft.extensions.logging.abstractions.10.0.13.nupkg.sha512",

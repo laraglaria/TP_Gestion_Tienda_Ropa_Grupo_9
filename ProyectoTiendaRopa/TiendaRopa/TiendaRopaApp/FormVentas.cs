@@ -13,10 +13,14 @@ namespace TiendaRopaApp
     {
         private List<DetalleVenta> detallesPendientes =
             new List<DetalleVenta>();
-
-        public FormVentas()
+        private readonly TiendaRopaDbContext context;
+        public FormVentas(TiendaRopaDbContext context)
         {
             InitializeComponent();
+
+            this.context = context;
+
+            btnQuitarDetalle.Enabled = false;
 
             cmbClientes.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbVendedores.DropDownStyle = ComboBoxStyle.DropDownList;
@@ -28,7 +32,6 @@ namespace TiendaRopaApp
 
         private void CargarDatos()
         {
-            using var context = new TiendaRopaDbContext();
 
             cmbClientes.DataSource = context.Clientes
                 .Where(c => c.Estado)
@@ -53,7 +56,6 @@ namespace TiendaRopaApp
 
         private void CargarProductos()
         {
-            using var context = new TiendaRopaDbContext();
 
             var productos = context.Productos
                 .OrderBy(p => p.Nombre)
@@ -63,6 +65,19 @@ namespace TiendaRopaApp
             cmbProductos.DisplayMember = "Nombre";
             cmbProductos.ValueMember = "Id";
             cmbProductos.DataSource = productos;
+        }
+
+        private void dgvDetalles_CellClick(
+            object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                btnQuitarDetalle.Enabled = true;
+            }
+            else
+            {
+                btnQuitarDetalle.Enabled = false;
+            }
         }
 
         private void btnAgregarDetalle_Click(
@@ -85,8 +100,6 @@ namespace TiendaRopaApp
 
             Producto productoSeleccionado =
                 (Producto)cmbProductos.SelectedItem;
-
-            using var context = new TiendaRopaDbContext();
 
             Producto? productoActual = context.Productos
                 .FirstOrDefault(p => p.Id == productoSeleccionado.Id);
@@ -186,6 +199,8 @@ namespace TiendaRopaApp
             detallesPendientes.RemoveAt(dgvDetalles.CurrentRow.Index);
 
             ActualizarDetalles();
+
+            btnQuitarDetalle.Enabled = false;
         }
 
         private void btnRegistrarVenta_Click(
@@ -207,7 +222,6 @@ namespace TiendaRopaApp
             int clienteId = Convert.ToInt32(cmbClientes.SelectedValue);
             int vendedorId = Convert.ToInt32(cmbVendedores.SelectedValue);
 
-            using var context = new TiendaRopaDbContext();
             using var transaccion = context.Database.BeginTransaction();
 
             try
@@ -260,6 +274,9 @@ namespace TiendaRopaApp
 
                 detallesPendientes.Clear();
                 ActualizarDetalles();
+
+                btnQuitarDetalle.Enabled = false;
+
                 CargarDatos();
                 txtCantidad.Clear();
             }
@@ -277,6 +294,8 @@ namespace TiendaRopaApp
             detallesPendientes.Clear();
 
             ActualizarDetalles();
+
+            btnQuitarDetalle.Enabled = false;
 
             txtCantidad.Clear();
 

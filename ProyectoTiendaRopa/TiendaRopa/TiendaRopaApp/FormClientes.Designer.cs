@@ -71,6 +71,7 @@
             dgvClientes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvClientes.Size = new Size(804, 95);
             dgvClientes.TabIndex = 31;
+            dgvClientes.CellClick += dgvClientes_CellClick;
             // 
             // btnAgregar
             // 

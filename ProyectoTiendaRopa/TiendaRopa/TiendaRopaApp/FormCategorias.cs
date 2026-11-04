@@ -7,14 +7,19 @@ namespace TiendaRopaApp
 {
     public partial class FormCategorias : Form
     {
-        private GenericRepository<Categoria> repositorio =
-            new GenericRepository<Categoria>();
+        private readonly IGenericRepository<Categoria> repositorio;
 
         private int idCategoriaSeleccionada = 0;
 
-        public FormCategorias()
+        public FormCategorias(IGenericRepository<Categoria> repositorio)
         {
             InitializeComponent();
+
+            this.repositorio = repositorio;
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+
             CargarCategorias();
         }
 
@@ -60,6 +65,9 @@ namespace TiendaRopaApp
 
                 txtDescripcion.Text = dgvCategorias.Rows[e.RowIndex]
                     .Cells["Descripcion"].Value?.ToString() ?? "";
+
+                btnModificar.Enabled = true;
+                btnEliminar.Enabled = true;
             }
         }
 
@@ -141,6 +149,9 @@ namespace TiendaRopaApp
             txtDescripcion.Clear();
 
             dgvCategorias.ClearSelection();
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
         }
     }
 }

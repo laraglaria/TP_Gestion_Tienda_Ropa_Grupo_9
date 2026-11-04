@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
+using System.Linq;
 using AccesoDatos.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,40 +8,49 @@ namespace AccesoDatos.Repositories
     public class GenericRepository<T> : IGenericRepository<T>
         where T : class
     {
+        private readonly TiendaRopaDbContext context;
+
+        public GenericRepository(TiendaRopaDbContext context)
+        {
+            this.context = context;
+        }
+
         public List<T> ObtenerTodos()
         {
-            using var context = new TiendaRopaDbContext();
-
             return context.Set<T>().ToList();
         }
 
         public T? ObtenerPorId(int id)
         {
-            using var context = new TiendaRopaDbContext();
-
             return context.Set<T>().Find(id);
         }
 
         public void Agregar(T entidad)
         {
-            using var context = new TiendaRopaDbContext();
-
             context.Set<T>().Add(entidad);
             context.SaveChanges();
         }
 
         public void Modificar(T entidad)
         {
-            using var context = new TiendaRopaDbContext();
+            var entidadExistente = context.Set<T>().Find(
+                context.Entry(entidad).Property("Id").CurrentValue
+            );
 
-            context.Set<T>().Update(entidad);
+            if (entidadExistente != null)
+            {
+                context.Entry(entidadExistente).CurrentValues.SetValues(entidad);
+            }
+            else
+            {
+                context.Set<T>().Update(entidad);
+            }
+
             context.SaveChanges();
         }
 
         public void Eliminar(int id)
         {
-            using var context = new TiendaRopaDbContext();
-
             T? entidad = context.Set<T>().Find(id);
 
             if (entidad != null)
@@ -53,4 +61,5 @@ namespace AccesoDatos.Repositories
         }
     }
 }
+
 

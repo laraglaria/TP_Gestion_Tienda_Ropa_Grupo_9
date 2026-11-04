@@ -16,6 +16,16 @@ namespace AccesoDatos.Data
         public DbSet<Venta> Ventas { get; set; }
         public DbSet<DetalleVenta> DetallesVenta { get; set; }
 
+        public TiendaRopaDbContext()
+        {
+        }
+
+        public TiendaRopaDbContext(
+            DbContextOptions<TiendaRopaDbContext> options)
+            : base(options)
+        {
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

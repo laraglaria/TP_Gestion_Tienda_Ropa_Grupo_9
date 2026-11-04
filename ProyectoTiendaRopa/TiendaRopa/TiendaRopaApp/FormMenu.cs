@@ -1,50 +1,62 @@
-﻿
-using System;
+﻿using System;
 using System.Windows.Forms;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TiendaRopaApp
 {
     public partial class FormMenu : Form
     {
-        public FormMenu()
+        private readonly IServiceScopeFactory scopeFactory;
+
+        public FormMenu(IServiceScopeFactory scopeFactory)
         {
             InitializeComponent();
+
+            this.scopeFactory = scopeFactory;
+        }
+
+        private void AbrirFormulario<TFormulario>()
+            where TFormulario : Form
+        {
+            using (IServiceScope scope = scopeFactory.CreateScope())
+            {
+                TFormulario formulario =
+                    scope.ServiceProvider.GetRequiredService<TFormulario>();
+
+                formulario.ShowDialog(this);
+
+                formulario.Dispose();
+            }
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-            FormProductos formulario = new FormProductos();
-            formulario.ShowDialog();
+            AbrirFormulario<FormProductos>();
         }
 
         private void btnCategorias_Click(object sender, EventArgs e)
         {
-            FormCategorias formulario = new FormCategorias();
-            formulario.ShowDialog();
+            AbrirFormulario<FormCategorias>();
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            FormClientes formulario = new FormClientes();
-            formulario.ShowDialog();
+            AbrirFormulario<FormClientes>();
         }
 
         private void btnVendedores_Click(object sender, EventArgs e)
         {
-            FormVendedores formulario = new FormVendedores();
-            formulario.ShowDialog();
+            AbrirFormulario<FormVendedores>();
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            FormVentas formulario = new FormVentas();
-            formulario.ShowDialog();
-        }
-        private void btnReportes_Click(object sender, EventArgs e)
-        {
-            FormReportes formulario = new FormReportes();
-            formulario.ShowDialog();
+            AbrirFormulario<FormVentas>();
         }
 
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<FormReportes>();
+        }
     }
 }

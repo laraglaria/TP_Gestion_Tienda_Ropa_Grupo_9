@@ -102,7 +102,7 @@
             // btnModificar
             // 
             btnModificar.Cursor = Cursors.Hand;
-            btnModificar.Location = new Point(29, 263);
+            btnModificar.Location = new Point(147, 263);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(112, 34);
             btnModificar.TabIndex = 6;
@@ -113,7 +113,7 @@
             // btnAgregar
             // 
             btnAgregar.Cursor = Cursors.Hand;
-            btnAgregar.Location = new Point(147, 263);
+            btnAgregar.Location = new Point(29, 263);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(112, 34);
             btnAgregar.TabIndex = 7;
@@ -132,6 +132,7 @@
             dgvCategorias.RowHeadersWidth = 62;
             dgvCategorias.Size = new Size(733, 111);
             dgvCategorias.TabIndex = 8;
+            dgvCategorias.CellClick += dgvCategorias_CellClick;
             // 
             // lblTituloPrincipal
             // 

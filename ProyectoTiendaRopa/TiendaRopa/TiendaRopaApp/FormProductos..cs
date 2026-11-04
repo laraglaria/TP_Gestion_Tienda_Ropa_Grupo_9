@@ -6,11 +6,19 @@ namespace TiendaRopaApp
 {
     public partial class FormProductos : Form
     {
-        private GenericRepository<Producto> repositorio = new GenericRepository<Producto>();
+        private readonly IGenericRepository<Producto> repositorio;
+
         private int idProductoSeleccionado = 0;
-        public FormProductos()
+
+        public FormProductos(IGenericRepository<Producto> repositorio)
         {
             InitializeComponent();
+
+            this.repositorio = repositorio;
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+
             CargarProductos();
         }
         private void CargarProductos()
@@ -81,6 +89,10 @@ namespace TiendaRopaApp
 
                 txtStock.Text = dgvProductos.Rows[e.RowIndex]
                     .Cells["Stock"].Value?.ToString() ?? "";
+
+                btnModificar.Enabled = true;
+                btnEliminar.Enabled = true;
+
             }
         }
 
@@ -164,6 +176,19 @@ namespace TiendaRopaApp
             txtDescripcion.Clear();
             txtPrecio.Clear();
             txtStock.Clear();
+
+            idProductoSeleccionado = 0;
+
+            txtNombre.Clear();
+            txtDescripcion.Clear();
+            txtPrecio.Clear();
+            txtStock.Clear();
+
+            dgvProductos.ClearSelection();
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+
         }
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
@@ -175,6 +200,10 @@ namespace TiendaRopaApp
             txtStock.Clear();
 
             dgvProductos.ClearSelection();
+
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
+
         }
     }
 }

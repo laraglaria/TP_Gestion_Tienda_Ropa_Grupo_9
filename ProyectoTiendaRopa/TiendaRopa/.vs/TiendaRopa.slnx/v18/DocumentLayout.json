@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{89DA11C5-9277-47C0-B14A-25DD69D0392A}|Elementos de la soluci\u00F3n{89DA11C5-9277-47C0-B14A-25DD69D0392A}|C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{89DA11C5-9277-47C0-B14A-25DD69D0392A}|Elementos de la soluci\u00F3n{89DA11C5-9277-47C0-B14A-25DD69D0392A}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\accesodatos\\data\\tiendaropadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\tiendaropadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formvendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formvendedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formproductos..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formproductos..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|c:\\users\\larag\\desktop\\programaciontsds2026\\tp_gestion_tienda_ropa_grupo_9\\proyectotiendaropa\\tiendaropa\\tiendaropaapp\\formcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\tiendaropaapp\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4DE610E2-8678-CF5C-1236-8067607DC2BD}|TiendaRopaApp\\TiendaRopaApp.csproj|solutionrelative:tiendaropaapp\\formventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +63,147 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormReportes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormReportes.cs",
-              "RelativeDocumentMoniker": "TiendaRopaApp\\FormReportes.cs",
-              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormReportes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TiendaRopaApp\\FormReportes.cs [Dise\u00F1o]",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-04T05:15:30.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormProductos..cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormProductos..cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormProductos..cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormProductos..cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormProductos..cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAIwL4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T03:14:06.51Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-11-04T04:43:43.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormClientes.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormClientes.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormClientes.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormClientes.cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormClientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:42:01.025Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FormVentas.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormVentas.cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormVentas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T03:56:32.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormCategorias.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormCategorias.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormCategorias.cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormCategorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:41:26.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormMenu.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormMenu.cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:34:47.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:35:30.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Program.cs",
               "RelativeDocumentMoniker": "TiendaRopaApp\\Program.cs",
               "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\Program.cs",
               "RelativeToolTip": "TiendaRopaApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T01:20:48.275Z"
+              "WhenOpened": "2026-11-04T04:56:46.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormReportes.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormReportes.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormReportes.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormReportes.cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormReportes.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAIAwwKAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:46:00.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormVendedores.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormVendedores.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormVendedores.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormVendedores.cs",
+              "RelativeToolTip": "TiendaRopaApp\\FormVendedores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:44:10.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TiendaRopaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "RelativeToolTip": "AccesoDatos\\Data\\TiendaRopaDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:36:22.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormVentas.cs",
+              "RelativeDocumentMoniker": "TiendaRopaApp\\FormVentas.cs",
+              "ToolTip": "C:\\Users\\larag\\Desktop\\ProgramacionTSDS2026\\TP_Gestion_Tienda_Ropa_Grupo_9\\ProyectoTiendaRopa\\TiendaRopa\\TiendaRopaApp\\FormVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TiendaRopaApp\\FormVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T04:17:20.625Z"
             }
           ]
         }

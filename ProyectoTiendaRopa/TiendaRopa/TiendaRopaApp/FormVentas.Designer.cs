@@ -162,6 +162,7 @@
             dgvDetalles.RowHeadersWidth = 62;
             dgvDetalles.Size = new Size(658, 127);
             dgvDetalles.TabIndex = 58;
+            dgvDetalles.CellClick += dgvDetalles_CellClick;
             // 
             // lblTotal
             // 
